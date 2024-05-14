@@ -43,7 +43,6 @@ const useValidaion = (
         navigate("/user");
       } else {
         alert("user is not regsiter or email and password might be worng");
-        setToggle(!toggle);
       }
     }
   }
