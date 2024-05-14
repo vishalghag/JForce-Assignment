@@ -88,7 +88,9 @@ const Header = () => {
               <>
                 <CommonButton
                   buttonName={"Report"}
-                  buttonOnClick={() => navigate("/")}
+                  buttonOnClick={() =>
+                    alert("In given task there is no part regarding Report")
+                  }
                 />
                 <CommonButton
                   buttonName={"Edit Profile"}

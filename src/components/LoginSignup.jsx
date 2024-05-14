@@ -45,7 +45,7 @@ const LoginSignup = () => {
   };
 
   return (
-    <div className=" flex flex-col bg-gray-500/50 h-full mt-[12%] m-4">
+    <div className=" flex flex-col bg-gray-500/50 h-full mt-[12%] m-4 md:rounded-xl rounded-md">
       <h1 className=" mt-5 text-2xl font-medium text-orange-500">
         {toggle ? "Login" : "Registration"}
       </h1>
